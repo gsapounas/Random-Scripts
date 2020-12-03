@@ -43,7 +43,7 @@ def get_current_mac(interface):
 		return mac_address_search_result.group(0)
 
 	else:
-		print("Sorry no mac address")
+		print("[-] Current MAC address is not parsed")
 
 options = get_arguments()
 
